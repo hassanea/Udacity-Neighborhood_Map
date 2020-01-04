@@ -8,8 +8,8 @@ The purpose of the **Neighborhood Map** project was to create a React web applic
 
 ## Running the Project
 
-1.  Download project from [E.H.'s AWS Cloud 9](https://us-east-2.console.aws.amazon.com/cloud9/ide/38daa583824f412dabdb60e2502b4f75)
-2.  Navigate to MyEnvironment/workspace/Projects/Udacity/Neighborhood-Map.
+1.  Download project from https://github.com/hassanea/Udacity-Neighborhood_Map
+2.  Navigate to the Neighborhood-Map folder.
 3.  In the terminal, change directory `"cd"` into the project folder.
     * Use the command `"npm install"` to install the dependencies.
     * Use the command `"npm start "` to run the project and open it in your web browser. 
