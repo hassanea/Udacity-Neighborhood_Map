@@ -130,7 +130,7 @@ updateQuery = (event) => {
                   places.map(place => {
              // Initializes Infowindow's content.          
              let contentString = `<div style="background-color: #99e6e6;"><h3 className="venueName">${place.venue.name}</h3>
-<hr> <img src="https://maps.googleapis.com/maps/api/streetview?size=175x175&location=${place.venue.location.lat} ${place.venue.location.lng}
+<hr> <img src="https://maps.googleapis.com/maps/api/streetview?size=145x145&location=${place.venue.location.lat} ${place.venue.location.lng}
 &fov=90&heading=335&pitch=10
 &key=AIzaSyAYxP1S161tECIbnGVpp8z6YYb8oeXC15A" alt="${place.venue.name}" style="border: 6px solid black; border-radius: 12px;"> <br><br> <p style="font-weight: bolder;">Address: ${place.venue.location.formattedAddress}</p> <p style="font-weight: bolder;">More Info: <a href="https://www.google.com/search?safe=active&ei=ySDNW4TuKsizggeag46wBw&q=${place.venue.name}" target="_blank" title="Google search for ${place.venue.name}!"><i class="fab fa-google fa-2x"></i></a></p></div>`
              
